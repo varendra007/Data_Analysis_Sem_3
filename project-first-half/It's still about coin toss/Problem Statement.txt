@@ -1,0 +1,8 @@
+It’s still about coin toss: Your friend has a biased coin at his home and challenges you to determine its bias, 
+i.e., the probability of heads. You both have a personal communication system which can transmit/receive bits.
+ You ask your friend to toss the coin 10000 times, send a 0 when a tail comes up and a 5 when a head comes up. 
+He/she agrees because whatever you receive is anyway corrupted by noise, which has a Gaussian PDF with mean μ 
+and variance σ^2. Since you have taken this course and can use some tricks to estimate the noise parameters, 
+you put an additional request to your friend and ask him/her to simply send 1000 zeros before sending the coin toss 
+results. Using these 11000 samples of data, characterize the noise and then find the bias of the coin (rounded to the 
+first decimal place).
